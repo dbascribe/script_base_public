@@ -1,9 +1,12 @@
--- filename : linked_server.sql
--- author   : alexander tempel (ate)
--- version  : 15.02.2016
+-- filename  : linked_server.sql
+-- copyright : alexander tempel 2014-2016
+-- modification history:
+-- date        who         what
+-- 2016-02-15  atempel     created
 
 -- test linked server
 -- modify linked server and postfix if neccessary
+-- linked server naming is <servername>_<username>
 declare @linkedserver   [nvarchar](4000)
 declare @postfix_in     [nvarchar](50)
 declare @connect_status [int]
