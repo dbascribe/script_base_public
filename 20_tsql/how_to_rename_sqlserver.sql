@@ -1,6 +1,8 @@
--- filename : rename_sqlserver.sql
--- author   : alexander tempel (ate)
--- version  : 15.02.2016
+-- filename  : rename_sqlserver.sql
+-- copyright : alexander tempel 2014-2016
+-- modification history:
+-- date        who         what
+-- 2016-02-15  atempel     created
 
 -- rename sqlserver after the host was renamed
 -- get current name
