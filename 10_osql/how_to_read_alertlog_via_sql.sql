@@ -1,11 +1,11 @@
 
 /*
    version   : 1.0
-   filename  : file_name.sql
+   filename  : how_to_read_alertlog_via_sql.sql
    author    : alexander tempel
    copyright : alexander tempel 2014-2016
   
-   summary   : brier summary
+   summary   : how to query alert.log information via sql and how to write to alert.log
   
    acknowledgements    : tanel poder
     
