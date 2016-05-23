@@ -1,0 +1,16 @@
+-- filename  : tablespace.cre
+-- copyright : alexander tempel 2014-2016
+-- modification history:
+-- date        who         what
+-- 2016-23-05  atempel     created
+
+-- create new tablespace
+create tablespace <tbs_name>
+   datafile <df_name> 
+   size <xxxx>M reuse
+   autoextend on next <xxxx>M 
+   maxsize <xxxx>M
+   logging
+   extent management local 
+   segment space management auto
+;
